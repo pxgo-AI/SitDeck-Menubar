@@ -1,7 +1,7 @@
 {
-  "name": "SitDeck Menubar",
-  "version": "1.0.3",
-  "description": "SitDeck Menubar  - Integration utilities",
+  "name": "SitDeck. Menu bar",
+  "version": "1.0.2",
+  "description": "SitDeck Menu bar  - Integration utilities",
   "main": "src/index.js",
   "types": "src/index.d.ts",
   "files": [
@@ -11,7 +11,7 @@
     "scripts/build.js"
   ],
   "bin": {
-    "SitDeck Menubar": "./scripts/setup.js"
+    "SitDeck. Menu bar": "./scripts/setup.js"
   },
   "scripts": {
     "start": "node src/index.js",

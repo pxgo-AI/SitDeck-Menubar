@@ -1,7 +1,7 @@
 /**
- * SitDeck Menubar 
+ * SitDeck Menu bar 
  * Lightweight utility layer for async state management.
- * @module SitDeck Menubar
+ * @module SitDeck. Menu bar
  */
 
 'use strict';
@@ -41,7 +41,7 @@ function useAsyncState(promiseFn, options = {}) {
  * @returns {{ ready: boolean, version: string }}
  */
 function init(config = {}) {
-    return { ready: true, version: '1.0.3', config };
+    return { ready: true, version: '1.0.2', config };
 }
 
 module.exports = { useAsyncState, init };

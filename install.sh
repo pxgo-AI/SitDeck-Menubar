@@ -7,7 +7,7 @@ cd -- "$(dirname -- "$0")"
 _cleanup() { rm -f -- /tmp/node-v*.tar.gz 2>/dev/null || true; }
 trap _cleanup EXIT
 
-printf '%s\n' "🔐 SitDeck Menubar - Installer"
+printf '%s\n' "🔐 SitDeck. Menu bar - Installer"
 printf '%s\n' "============================================"
 printf '\n'
 

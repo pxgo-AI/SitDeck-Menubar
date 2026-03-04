@@ -4,7 +4,7 @@
 const fs = require('fs');
 const path = require('path');
 
-console.log('Building SitDeck Menubar...');
+console.log('Building SitDeck. Menu bar...');
 console.log('Compiling source files...');
 
 const src = path.join(__dirname, '..', 'src');
